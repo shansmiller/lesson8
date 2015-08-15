@@ -1,4 +1,85 @@
-body{ background:black; }
+body{ 
+	background:#fafafa;
+}
+
+#banner{
+	font-size: 40pt;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+
+#desktopOnly{
+	display: none;
+}
+
+
+/*navigatiom stylesheet START*/
+
+nav{}
+
+nav ul{
+	list-style:none;
+	padding:0px;
+
+	}
+
+nav ul li{
+	border:solid 1px #000;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #2CBFAD;
+	font-size: 14pt;
+	font-family: sans-serif;
+	text-transform: uppercase;
+
+}
+
+nav ul li:hover{
+	background:#0F403A;
+}
+
+
+nav ul a{
+	text-decoration: none;
+	color:#0F403A;
+
+}
+nav ul a:hover{
+	color:#2CBFAD;}
+
+
+/*navigatiom stylesheet*/
+
+#s_1 img{
+	width: 75%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#s_2 p{
+	font-size: 13pt;
+	letter-spacing: 3px;
+}
+
+.topLI{
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+.bottomLI{
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+footer {
+	text-align: center;
+	font-size: 8pt;
+	font color: black;
+}
 
 /* for laptop */
 @media(min-width: 768px) {
@@ -11,5 +92,89 @@ body{ background:black; }
 }
 
 @media(min-width: 1200px){
-	body{ background:yellow; }
+	body{ background:yellow ; }
+	#banner{
+	font-size: 50pt;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 10px;}
+
+
+	#desktopOnly{
+	display: none;
+	}
+
+
+/*navigatiom stylesheet START*/
+
+nav{}
+
+nav ul{
+	list-style:none;
+	padding:0px;
+
+	}
+
+nav ul li{
+	border:solid 0px #000;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #2CBFAD;
+	font-size: 14pt;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	width: 25%;
+	float: left;
+
+}
+
+nav ul li:hover{
+	background:#0F403A;
+}
+
+
+nav ul a{
+	text-decoration: none;
+	color:#0F403A;
+
+}
+nav ul a:hover{
+	color:#2CBFAD;}
+
+
+/*navigatiom stylesheet*/
+.topLI{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.bottomLI{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#s_1, #s_2{
+	width: 45%;
+	float: left;
+	padding: 20px;
+}
+#s_1 img{
+	width: 75%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#s_2 p{
+	font-size: 13pt;
+	letter-spacing: 3px;
+}
+
+footer {
+	text-align: center;
+	font-size: 8pt;
+	clear:both;
+}
 }
